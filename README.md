@@ -1,0 +1,1 @@
+# Code_and_data_for_multiSNP_Laplace_prior_paper
