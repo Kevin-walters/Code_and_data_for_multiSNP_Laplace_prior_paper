@@ -3,15 +3,15 @@
 devtools::load_all("G:/My Drive/R_packages/Bayesfinemap")
 devtools::load_all("G:/My Drive/R_packages/converthapgen")
 devtools::load_all("G:/My Drive/R_packages/lapmapr")
-source("calc_model_prior_probs")
-source("Multivar_logreg")
-source("remove_high_ld_snps")
-source("select_snps_using_unibf")
-source("create_pheno_geno")
-source("run_multiGLM")
-source("process_hapgen_files")
-source("calculate_ppi")
-source("write_finemap_files")
+source("calc_model_prior_probs.R")
+source("Multivar_logreg.R")
+source("remove_high_ld_snps.R")
+source("select_snps_using_unibf.R")
+source("create_pheno_geno.R")
+source("run_multiGLM.R")
+source("process_hapgen_files.R")
+source("calculate_ppi.R")
+source("write_finemap_files.R")
 library(magrittr)
 
 ############################# Function arguments ###############################
@@ -22,7 +22,7 @@ w <- 0.04
 lambda <- 7.1
 prior_prob <- 0.04
 ldtext <- "low"
-ss <- "9000"
+ss <- "4000"
 causal_snps <- c(1, 312)
 #causal_snps <- c(33, 95)
 
